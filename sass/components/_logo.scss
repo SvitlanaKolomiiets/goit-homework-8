@@ -1,0 +1,16 @@
+.logo {
+  @include font(26px, 1.19, 0.03em);
+  font-family: var(--logo-font, sans-serif);
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 93px;
+}
+.logo-color {
+  color: var(--logo-blue-color, blue);
+}
+.header__logo {
+color: var(--logo-black-color, black);
+}
+.footer__logo {
+  color: var(--logo-white-color, white);
+}
